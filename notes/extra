@@ -1,0 +1,13 @@
+.grid > article:hover{
+  transition: transform .1s ease-out;
+  transform: translateY(5px);
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+
+
+
+text-shadow: 6px 6px 10px rgba(0, 0, 0,0.7)
+
+Test if commit works 12/9/12.

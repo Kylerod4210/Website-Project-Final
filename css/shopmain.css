@@ -1,0 +1,80 @@
+
+.grid {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+padding: 20px;
+  align-items: stretch;
+text-align: center;
+align-items: center;
+justify-content: center;
+justify-items:center;
+  }
+
+.grid > article {
+  border: 2px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  border-radius: 40px;
+  text-align: center;
+  width:75%;
+padding: 20px;
+box-sizing:content-box;
+
+
+}
+
+.grid > article img {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.text {
+  padding: 0 20px 20px;
+}
+
+.text > h4{
+  text-transform: uppercase;
+}
+
+.text > button {
+  background: linear-gradient(to right, #f030a7, #f0308d, #f03061);
+  background: #24cfaa;
+  border-radius: 3px;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  font-weight: 600;
+  text-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  text-transform: uppercase;
+  box-shadow: 3px 3px 8px #b1b1b1,
+              -3px -3px 8px #ffffff;
+              transition: 1.0s;
+
+}
+.signin-button:hover {
+  background:#2fdbb6;
+}
+
+@media (max-width: 768px){
+  .grid{
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+  }
+}
+
+@media (max-width: 500px){
+  .grid{
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+  }
+
+  .grid > article{
+    text-align: center;
+
+  }
+}
